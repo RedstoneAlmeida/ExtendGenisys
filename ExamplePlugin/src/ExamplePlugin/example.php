@@ -18,6 +18,7 @@ class example extends PlgBase implements ListN{
     }
     
     public function PlayerDrop(PlayerDropItemEvent $event){
+        // givePlayer() === getPlayer() or isGetPlayer()
         if($event->givePlayer()->getInventory()->getItemInHand()->getId() == 264){
             $event->setCancelled(true);
         }
