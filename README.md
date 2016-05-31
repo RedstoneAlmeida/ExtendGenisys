@@ -6,6 +6,7 @@ Extended Genisys to you PocketMine-Server
 ### Features
 - Enable or Disable Fly to All Player(pl.yml)
 - Banned for IP or NickName message(pl.yml)
+- Wiki Documentation [**here**](https://github.com/RedstoneAlmeida/ExtendGenisys/wiki)
 
 ### Folders
 - \extends-api\pl.yml
