@@ -12,6 +12,6 @@ Extended Genisys to you PocketMine-Server
 
 ### For Devs
 ```php
-in: pl.yml
+Config: pl.yml(extendsapipl)
 Server::getInstance()->extendsapipl->get(" ");
 ```
