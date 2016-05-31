@@ -13,10 +13,15 @@ Extended Genisys to you PocketMine-Server
 ### For Devs
 ##### Code:
 ```php
-Config: pl.yml(extendsapipl)
 Server::getInstance()->extendsapipl->get(" ");
 ```
 ##### Example:
 ```php
 $sender->sendMessage(Server::getInstance()->extendsapipl->get("banned.message"));
+```
+
+#### Configs:
+```php
+Config | Config to get |
+pl.yml: extendsapipl
 ```
