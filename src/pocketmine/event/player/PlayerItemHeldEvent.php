@@ -51,5 +51,8 @@ class PlayerItemHeldEvent extends PlayerEvent implements Cancellable{
 	public function getItem(){
 		return $this->item;
 	}
+	public function holdItem(){
+		return $this->item;
+	}//example: $event->getPlayer()->getInventory()->holdItem() == 152;
 
 }
