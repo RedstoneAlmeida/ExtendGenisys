@@ -76,9 +76,9 @@ namespace pocketmine {
 	const VERSION = "1.1dev";
 	const API_VERSION = "2.0.0";
 	const CODENAME = "Extended By RedstoneAlmeida";
-	const MINECRAFT_VERSION = "v0.14.x alpha";
-	const MINECRAFT_VERSION_NETWORK = "0.14.3";
-	const GENISYS_API_VERSION = '1.7.3';
+	const MINECRAFT_VERSION = "v0.15.10 alpha";
+	const MINECRAFT_VERSION_NETWORK = "0.15.10";
+	const GENISYS_API_VERSION = '1.7.3'; //Protocol seems to be 84, but can't find it ;-;
 
 	/*
 	 * Startup code. Do not look at it, it may harm you.
